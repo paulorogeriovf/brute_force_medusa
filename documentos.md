@@ -44,7 +44,7 @@ Se a porta ftp estiver aberta tentaremos conectá-la diretamente.
 
 2º - Conectando diretamente ao ftp para confirmar se está ativo.
 
-Comando: ftp número.ip
+Comando: ftp número.
 
 Caso a conexão aconteça pedirá o login e a senha. Como ainda não sabemos nenhum dos dois precisaremos fazer um ataque brute force (força bruta) utilizando a ferramenta Medusa para tentar descobri-los. Antes disso temos que criar duas listas: uma com possíveis nomes de usuários e outra com senhas comuns.
 
@@ -65,7 +65,7 @@ Comando senhas: echo -e "123456\npassword\nqwerty\nmsfadmin" > pass.txt
 
 2º - Rodando o ataque com a Medusa
 
-Comando: medusa -h nuftpmero.ip -U users.txt -P pass.txt -M ftp -t6
+Comando: medusa -h numero.ip -U users.txt -P pass.txt -M ftp -t6
 
 Onde -t6 significa que estamos usando 6 threads simultâneas, o que torna o ataque mais rápido.
 
