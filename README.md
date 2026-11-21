@@ -1,7 +1,8 @@
 ### Simulação de Ataque de Força Bruta com Medusa e Kali Linux
 
 <p align="center">
-  <img src="images/logo medusa.png"">
+  <img src="images/logo medusa.png" width="350" alt="Medusa Logo" />
+  <img src="images/kali-logo.png" width="350" alt="Kali Linux Logo" />
 </p>
 
 Neste projeto, foi realizada uma simulação de ataque de força bruta (*Brute Force*) utilizando a ferramenta **Medusa** no ambiente **Kali Linux**. Os testes foram conduzidos em três protocolos de rede: **FTP (transferência de arquivos), HTTP (comunicação web) e SMB (compartilhamento de arquivos e recursos)**, com o objetivo de compreender o funcionamento desse tipo de ataque e identificar possíveis vulnerabilidades relacionadas à segurança de autenticação.
