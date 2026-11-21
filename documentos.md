@@ -1,9 +1,9 @@
-Realizei um Ataque de Brute Force de Senhas com Medusa e Kali Linux nos protocolos de rede FTP (transferência de arquivos), HTTP (web) e SMB (compartilhamento de recursos).
+Realizei um Ataque de Brute Force de Senhas com Medusa e Kali Linux nos protocolos de rede FTP (transferência de arquivos), HTTP (web) e SMB (compartilhamento de recursos) em ambientes controlados .
 
 Configuração Inicial
-1º - Instalar o Kali Linux e o Metasploitable 2.0 no Virtual Box.
+1º - Instalar Virtual Box , Kali Linux e o Metasploitable 2.0 no Virtual Box.
 
-2º - Iniciar os dois e fazer um snapshot no metasploitable para recuperar o trabalho em caso de falha da máquina. Como? Na guia do virtualbox com o metasploitable aberto clicar em máquina > criar snapshot > adicionar nome e descrição do snapshot > clicar em ok.
+2º - Iniciar os dois e fazer um snapshot no metasploitable para recuperar o trabalho em caso de falha ou quebra da máquina. Na guia do virtualbox com o metasploitable aberto clicar em máquina > criar snapshot > adicionar nome e descrição do snapshot > clicar em ok.
 
 <p align="center">
   <img src="images/snapshot inicial.jpg"">
