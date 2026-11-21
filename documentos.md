@@ -173,7 +173,7 @@ Verifica se teremos acesso como administrador através das credenciais encontrad
 Comando: smbclient -L //numero.ip -U msfadmin
 
 <p align="center">
-  <img src="images/smbclient.png"">
+  <img src="images/smbclient.jpg"">
 </p>
 
 ## Recomendações de Mitigação e Prevenção
